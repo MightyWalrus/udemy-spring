@@ -4,6 +4,6 @@ public class BaseBallCoach implements Coach {
 	
 	@Override
 	public String getDailyWorkout() {
-		return "do 30 min batt practice";
+		return "do 30 min bat practice";
 	}
 }
