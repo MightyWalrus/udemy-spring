@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,windows,macos,eclipse,visualstudiocode,intellij,git
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,macos,eclipse,visualstudiocode,intellij,git
+# Created by https://www.toptal.com/developers/gitignore/api/intellij,eclipse,git,java,visualstudiocode,windows,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,eclipse,git,java,visualstudiocode,windows,macos
 
 ### Eclipse ###
 .metadata
@@ -62,8 +62,7 @@ local.properties
 
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
-.project
-.classpath
+#.project
 
 ### Eclipse Patch ###
 # Spring Boot Tooling
@@ -134,7 +133,9 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
+.idea/
 out/
+*.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -142,50 +143,10 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Cursive Clojure plugin
-.idea/replstate.xml
-
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
-crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-# Editor-based Rest Client
-.idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
-
-### Intellij Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-# Sonarlint plugin
-# https://plugins.jetbrains.com/plugin/7973-sonarlint
-.idea/**/sonarlint/
-
-# SonarQube Plugin
-# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
-.idea/**/sonarIssues.xml
-
-# Markdown Navigator plugin
-# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-.idea/**/markdown-navigator.xml
-.idea/**/markdown-navigator-enh.xml
-.idea/**/markdown-navigator/
-
-# Cache file creation bug
-# See https://youtrack.jetbrains.com/issue/JBR-2257
-.idea/$CACHE_FILE$
-
-# CodeStream plugin
-# https://plugins.jetbrains.com/plugin/12206-codestream
-.idea/codestream.xml
 
 ### Java ###
 # Compiled class file
@@ -220,7 +181,6 @@ hs_err_pid*
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
@@ -278,4 +238,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/java,windows,macos,eclipse,visualstudiocode,intellij,git
+# End of https://www.toptal.com/developers/gitignore/api/intellij,eclipse,git,java,visualstudiocode,windows,macos
